@@ -1,0 +1,10 @@
+package org.example.NMS.domain;
+
+public enum FailureType {
+    TRANSIENT_PROVIDER_FAILURE,
+    PERMANENT_PROVIDER_REJECTION,
+    INVALID_RECIPIENT,
+    RATE_LIMITED,
+    TIMEOUT,
+    AUTHORIZATION_ERROR
+}
